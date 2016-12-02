@@ -21,7 +21,6 @@ public class MainMenu implements ActionListener{
 	public MainMenu(){
 		
 		
-		
 		JPanel panel = new JPanel();
 		TitledBorder border = BorderFactory.createTitledBorder("MainMenu");		
 		panel.setBorder(border);
