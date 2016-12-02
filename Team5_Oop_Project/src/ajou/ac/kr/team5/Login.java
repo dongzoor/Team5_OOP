@@ -136,8 +136,11 @@ public class Login implements ActionListener{
 	
 			checkUser();
 			
-			if(flag == true)
-				JOptionPane.showMessageDialog(myFrame, "***  Login! ***");
+			if(flag == true){
+				
+				MainMenu main = new MainMenu();
+				myFrame.setVisible(false);
+			}
 				
 			
 			else{
