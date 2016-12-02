@@ -108,6 +108,9 @@ public class Join implements ActionListener{
 				writer.write(age+a);
 		        
 		        writer.close();
+		        
+		        MainMenu main = new MainMenu();
+		        myFrame.setVisible(false);
 				
 			} catch (FileNotFoundException e2) {
 				// TODO Auto-generated catch block
