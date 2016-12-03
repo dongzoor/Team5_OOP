@@ -34,7 +34,6 @@ public class Simulation extends JFrame{
 	private JPanel panel_1;
 	public static Simulation frame;
 
-	
 	/**
 	 * Launch the application.
 	 */
