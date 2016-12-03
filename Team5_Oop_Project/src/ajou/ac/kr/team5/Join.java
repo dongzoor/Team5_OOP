@@ -42,7 +42,7 @@ public class Join implements ActionListener{
 	JButton btn2 = new JButton("Cancel");
 	
 	
-	frame myFrame = new frame();
+	MainFrame myFrame = new MainFrame();
 	
 	String id;
 	String password;

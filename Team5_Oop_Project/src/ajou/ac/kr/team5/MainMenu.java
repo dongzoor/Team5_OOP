@@ -16,7 +16,7 @@ public class MainMenu implements ActionListener{
 	JButton simulation = new JButton("Simulation");
 	JButton test = new JButton("Test");
 	
-	frame myFrame = new frame();
+	MainFrame myFrame = new MainFrame();
 	
 	public MainMenu(){
 		
@@ -57,10 +57,13 @@ public class MainMenu implements ActionListener{
 			Concept info = new Concept();
 			myFrame.setVisible(false);
 		}
-	/*	if((JButton)e.getSource() == simulation){ 
+		
+		if((JButton)e.getSource() == simulation){ 
 			Simulation info = new Simulation();
+			info.setVisible(true);
 			myFrame.setVisible(false);
-		}*/
+		}
+		
 		if((JButton)e.getSource() == test){ 
 			Test test;
 			try {
@@ -71,10 +74,7 @@ public class MainMenu implements ActionListener{
 			} catch (IOException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
-			}
-		
-			
-			
+			}	
 		}
 		
 		

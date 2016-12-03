@@ -33,7 +33,7 @@ public class Test {
 	
 	public Test() throws IOException{
 		
-		frame myFrame = new frame();
+		MainFrame myFrame = new MainFrame();
 		
 		JPanel panel = new JPanel();
 		panel.setLayout(new GridLayout(11,2));

@@ -41,7 +41,7 @@ public class Login implements ActionListener{
 	JButton btn1 = new JButton("login");
 	JButton btn2 = new JButton("Cancel");
 	
-	frame myFrame = new frame();
+	MainFrame myFrame = new MainFrame();
 	
 	String id;
 	String password;

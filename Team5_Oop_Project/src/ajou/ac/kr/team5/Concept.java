@@ -1,5 +1,7 @@
 package ajou.ac.kr.team5;
 
+import java.awt.Frame;
+
 import javax.swing.BorderFactory;
 import javax.swing.JPanel;
 import javax.swing.border.TitledBorder;
@@ -9,7 +11,7 @@ public class Concept {
 
 	public Concept(){
 		
-		frame myFrame = new frame();
+		MainFrame myFrame = new MainFrame();
 		
 		JPanel panel = new JPanel();
 		TitledBorder border = BorderFactory.createTitledBorder("Concept");		

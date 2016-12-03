@@ -9,7 +9,7 @@ public class Information {
 
 	public Information(){
 		
-		frame myFrame = new frame();
+		MainFrame myFrame = new MainFrame();
 		
 		JPanel panel = new JPanel();
 		TitledBorder border = BorderFactory.createTitledBorder("Information");		
