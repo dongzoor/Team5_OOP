@@ -15,7 +15,7 @@ import javax.swing.BoxLayout;
 import javax.swing.border.TitledBorder;
 import javax.swing.JScrollPane;
 
-public class frame extends JFrame {
+public class MainFrame extends JFrame {
 
 	private JPanel contentPane;
 
@@ -26,7 +26,8 @@ public class frame extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					frame frame = new frame();
+					
+					MainFrame frame = new MainFrame();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -38,7 +39,7 @@ public class frame extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public frame() {
+	public MainFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		
