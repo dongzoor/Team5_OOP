@@ -121,7 +121,7 @@ public class Simulation extends JFrame{
 				frame.setVisible(false);
 			}
 		});
-		
+		 
 		GroupLayout gl_contentPane = new GroupLayout(contentPane);
 		gl_contentPane.setHorizontalGroup(
 			gl_contentPane.createParallelGroup(Alignment.LEADING)
